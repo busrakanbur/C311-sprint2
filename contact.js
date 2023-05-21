@@ -1,22 +1,23 @@
+$(document).ready(function () {
+
+  $('#dialog').hide();
+
+  $('form').submit(function (event) {
+
+    event.preventDefault();
+    // var name = $("#name").val();
+    // var surname = $("#surname").val();
+
+    $("#dialog").dialog();
+
+    // setTimeout(function () {
+    //   window.location.reload();
+    // }, 1500);
+
+  });
+});
 
 
-$( function() {
-    $( "#dialog" ).dialog({
-      autoOpen: false,
-      show: {
-        effect: "blind",
-        duration: 1000
-      },
-      hide: {
-        effect: "explode",
-        duration: 1000
-      }
-    });
- 
-    $( "#opener" ).on( "click", function() {
-      $( "#dialog" ).dialog( "open" );
-    });
-  } );
 
   document.getElementById('contact-form').addEventListener('submit', function (event) {
     event.preventDefault();

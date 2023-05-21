@@ -1,6 +1,4 @@
 
-
-
 $(document).ready(function () {
 
   //slider
@@ -29,6 +27,8 @@ $(document).ready(function () {
   });
 
   $("#dialog").dialog();
+
+  
 
 });
 
