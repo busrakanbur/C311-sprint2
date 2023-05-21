@@ -1,0 +1,229 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-menu {
+    background-color: rgb(229, 229, 229);
+    min-height: 100%;
+    border-style: none;
+    border-width: 20px;
+    padding: 50px;
+    float: left;
+}
+
+.sidebar-menu2 {
+    background-color: rgb(229, 229, 229);
+    min-height: 100vh;
+    border-style: none;
+    border-width: 20px;
+    padding: 50px;
+    float: left;
+}
+
+.row {
+    margin: 0;
+}
+
+#logo {
+    width: 100%;
+    max-width: 200px;
+}
+
+#written {
+    color: rgb(87, 98, 109);
+}
+
+div.sidebarOption:hover {
+    color: rgb(87, 98, 109);
+    cursor: pointer;
+}
+
+#icon {
+    padding-right: 10px;
+    width: 40px;
+}
+
+#right-side {
+    overflow: auto;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#menu-list {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+#menu-list li a {
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    transition: .5s;
+}
+
+#menu-list li a:hover {
+    color: rgb(62, 96, 106);
+    transition: .5s;
+}
+
+.photo_images {
+    margin: 5px;
+    width: 720px;
+}
+
+
+#main-content {
+    padding: 3rem 1rem;
+}
+
+#main-content img {
+    width: 100%;
+    max-width: 240px;
+}
+
+.images-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+aside {
+    position: center;
+}
+
+
+footer {
+    background-color: rgb(36, 36, 36);
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.copyright {
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+}
+
+/* sprint 2 */
+.slider img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.images-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Boşluk miktarını ayarlayabilirsiniz */
+}
+
+.art_images {
+    margin-inline: 20px;
+    margin-block: 15px;
+    object-fit: cover;
+}
+
+
+/*contact page*/
+#main-content {
+    background-color: #fff;
+    padding-right: 90px;
+}
+
+.right {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #284b4e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #242424;
+}
+
+
+#button-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 999;
+}
+
+#sticky-button,
+#second-button,
+#third-button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+#second-button,
+#third-button {
+    margin-left: 10px;
+}
+
+.image-link {
+    object-fit: contain;
+    width: 500px;
+    /* Otomatik yükseklik ayarı oranı korur */
+}
+
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
